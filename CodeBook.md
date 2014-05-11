@@ -1,5 +1,5 @@
 Data_Preparation.R Code Book:
-================++++=========
+=============================
 
 > <b>Data_Preparation.R</b> - Created for Peer Assessments/Exploratory Data Analysis Week 1<p>
 > Created with R x64 3.1.0 Patched on Windows 7 64 bits SO and use data.table library<p>

@@ -27,7 +27,7 @@ OBS: Every time you run a plot'n'.R (plot1.R, plot2.R, plot3.R, or plot4.R), the
 Data:
 =====
 
-str(tidy)
+> str(tidy)
 'data.frame':	2880 obs. of  11 variables:
  $ X                    : int  66637 66638 66639 66640 66641 66642 66643 66644 66645 66646 ...
  $ Date                 : Factor w/ 2 levels "1/2/2007","2/2/2007": 1 1 1 1 1 1 1 1 1 1 ...
@@ -41,23 +41,8 @@ str(tidy)
  $ Sub_metering_3       : int  0 0 0 0 0 0 0 0 0 0 ...
  $ DateTime             : POSIXlt, format: "2007-02-01 00:00:00" "2007-02-01 00:01:00" "2007-02-01 00:02:00" 
 
-summary(tidy)
-       X               Date            Time      Global_active_power Global_reactive_power
- Min.   :66637   1/2/2007:1440   00:00:00:   2   Min.   :0.220       Min.   :0.0000       
- 1st Qu.:67357   2/2/2007:1440   00:01:00:   2   1st Qu.:0.320       1st Qu.:0.0000       
- Median :68077                   00:02:00:   2   Median :1.060       Median :0.1040       
- Mean   :68077                   00:03:00:   2   Mean   :1.213       Mean   :0.1006       
- 3rd Qu.:68796                   00:04:00:   2   3rd Qu.:1.688       3rd Qu.:0.1440       
- Max.   :69516                   00:05:00:   2   Max.   :7.482       Max.   :0.5000       
-                                 (Other) :2868                                            
-    Voltage      Global_intensity Sub_metering_1    Sub_metering_2   Sub_metering_3  
- Min.   :233.1   Min.   : 1.000   Min.   : 0.0000   Min.   :0.0000   Min.   : 0.000  
- 1st Qu.:238.4   1st Qu.: 1.400   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.: 0.000  
- Median :240.6   Median : 4.600   Median : 0.0000   Median :0.0000   Median : 0.000  
- Mean   :240.4   Mean   : 5.102   Mean   : 0.4062   Mean   :0.2576   Mean   : 8.501  
- 3rd Qu.:242.4   3rd Qu.: 7.000   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:17.000  
- Max.   :246.6   Max.   :32.000   Max.   :38.0000   Max.   :2.0000   Max.   :19.000  
-                                                                                     
+> summary(tidy$DateTime)
+ 
     DateTime                  
  Min.   :2007-02-01 00:00:00  
  1st Qu.:2007-02-01 11:59:45  

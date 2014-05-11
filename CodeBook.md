@@ -28,7 +28,8 @@ Data:
 =====
 
 > str(tidy)
-'data.frame':	2880 obs. of  11 variables:
+
+'data.frame':	2880 obs. of  11 variables: 
  $ X                    : int  66637 66638 66639 66640 66641 66642 66643 66644 66645 66646 ...
  $ Date                 : Factor w/ 2 levels "1/2/2007","2/2/2007": 1 1 1 1 1 1 1 1 1 1 ...
  $ Time                 : Factor w/ 1440 levels "00:00:00","00:01:00",..: 1 2 3 4 5 6 7 8 9 10 ...
